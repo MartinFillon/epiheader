@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Gradle 7.5.1
+Build-JVM: 17.0.5 (Red Hat, Inc. 17.0.5+8)
+Version: 1.1
+Build-Plugin: Gradle IntelliJ Plugin
+Build-Plugin-Version: 1.8.0
+Build-OS: Linux 6.0.7-200.fc36.x86_64 amd64
+Build-SDK: IC-2021.3.3
+

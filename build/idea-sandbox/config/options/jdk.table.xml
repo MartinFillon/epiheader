@@ -1,0 +1,98 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="17" />
+      <type value="JavaSDK" />
+      <version value="version 17.0.5" />
+      <homePath value="/usr/lib/jvm/java-17" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///usr/lib/jvm/java-17!/java.base" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.compiler" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.datatransfer" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.desktop" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.instrument" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.logging" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.management" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.management.rmi" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.naming" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.net.http" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.prefs" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.rmi" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.scripting" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.se" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.security.jgss" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.security.sasl" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.smartcardio" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.sql" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.sql.rowset" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.transaction.xa" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.xml" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/java.xml.crypto" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.accessibility" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.attach" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.charsets" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.compiler" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.dynalink" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.editpad" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.httpserver" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.incubator.foreign" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.incubator.vector" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.le" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jartool" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.javadoc" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jcmd" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jconsole" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jdeps" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jdi" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jfr" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jlink" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jpackage" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jshell" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jsobject" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.jstatd" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.localedata" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.management" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.management.agent" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.net" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.random" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.sctp" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.security.auth" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.unsupported" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///usr/lib/jvm/java-17!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>

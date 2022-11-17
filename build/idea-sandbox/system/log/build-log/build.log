@@ -1,0 +1,90 @@
+2022-11-17 14:00:41,849 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:00:41,850 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:00:42,115 [    266]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 238 ms
+2022-11-17 14:00:42,330 [    481]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:00:42,539 [    690]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 208 ms
+2022-11-17 14:00:42,540 [    691]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:00:42,645 [    796]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:00:42,829 [    980]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2022-11-17 14:00:42,831 [    982]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2022-11-17 14:00:42,831 [    982]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2022-11-17 14:00:42,838 [    989]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2022-11-17 14:00:42,839 [    990]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 5bdc6925
+2022-11-17 14:00:42,850 [   1001]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2022-11-17 14:00:42,957 [   1108]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 18 ms
+2022-11-17 14:00:43,099 [   1250]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 29 ms
+2022-11-17 14:00:43,109 [   1260]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 41 ms
+2022-11-17 14:00:43,605 [   1756]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Kotlin Builder' took 474 ms; 0 sources processed
+2022-11-17 14:00:43,968 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:00:43,969 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:00:44,251 [    283]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 260 ms
+2022-11-17 14:00:44,373 [    405]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 108 ms
+2022-11-17 14:00:44,541 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:00:44,777 [    809]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 236 ms
+2022-11-17 14:00:44,777 [    809]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:00:44,869 [    901]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:00:45,070 [   1102]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1102 ms
+2022-11-17 14:00:51,029 [   7061]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2022-11-17 14:03:55,889 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:03:55,889 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:03:56,179 [    290]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 267 ms
+2022-11-17 14:03:56,419 [    530]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:03:56,611 [    722]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 191 ms
+2022-11-17 14:03:56,611 [    722]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:03:56,689 [    800]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:13:43,511 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:13:43,512 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:13:43,765 [    254]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 230 ms
+2022-11-17 14:13:43,972 [    461]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:13:44,248 [    737]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 275 ms
+2022-11-17 14:13:44,248 [    737]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:13:44,334 [    823]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:17:20,570 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:17:20,570 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:17:20,807 [    237]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 212 ms
+2022-11-17 14:17:20,975 [    405]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:17:21,143 [    573]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 168 ms
+2022-11-17 14:17:21,144 [    574]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:17:21,229 [    659]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:19:41,269 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:19:41,269 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:19:41,628 [    359]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 334 ms
+2022-11-17 14:19:41,846 [    577]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:19:42,166 [    897]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 319 ms
+2022-11-17 14:19:42,181 [    912]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:19:42,297 [   1028]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:20:29,511 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:20:29,512 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:20:29,792 [    281]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 247 ms
+2022-11-17 14:20:29,985 [    474]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:20:30,216 [    705]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 231 ms
+2022-11-17 14:20:30,216 [    705]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:20:30,344 [    833]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:33:16,659 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:33:16,659 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:33:16,946 [    287]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 262 ms
+2022-11-17 14:33:17,178 [    519]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:33:17,394 [    735]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 216 ms
+2022-11-17 14:33:17,394 [    735]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:33:17,479 [    820]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 14:34:03,669 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 14:34:03,669 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 14:34:04,017 [    348]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 311 ms
+2022-11-17 14:34:04,276 [    607]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 14:34:04,546 [    877]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 270 ms
+2022-11-17 14:34:04,546 [    877]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 14:34:04,651 [    982]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 15:03:46,055 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 15:03:46,055 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 15:03:46,342 [    287]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 263 ms
+2022-11-17 15:03:46,510 [    455]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 15:03:46,694 [    639]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 184 ms
+2022-11-17 15:03:46,694 [    639]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 15:03:46,778 [    723]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
+2022-11-17 15:21:52,817 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2022-11-17 15:21:52,818 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/martin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2021.3.3/5f40ccb79bdc6dd8a8cf06560da915d22badee94/ideaIC-2021.3.3/plugins/java/lib/jps-launcher.jar
+2022-11-17 15:21:53,181 [    364]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 328 ms
+2022-11-17 15:21:53,663 [    846]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/martin/IdeaProjects/untitled, global options path = /home/martin/IdeaProjects/epiheader/build/idea-sandbox/config/options
+2022-11-17 15:21:54,089 [   1272]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 426 ms
+2022-11-17 15:21:54,090 [   1273]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 0 libraries
+2022-11-17 15:21:54,234 [   1417]   INFO - intellij.util.io.FilePageCache - lower=100; upper=500; buffer=10; max=680
