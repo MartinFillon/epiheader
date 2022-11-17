@@ -1,0 +1,2 @@
+# epiheader
+Epitech Header generator.
