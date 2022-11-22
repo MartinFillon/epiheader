@@ -10,17 +10,18 @@ import com.intellij.openapi.vfs.VirtualFile
 import java.time.LocalDateTime
 
 
-class Hello: AnAction() {
+class Header: AnAction() {
     override fun actionPerformed(event: AnActionEvent) {
         val project: Project? = event.project
         val file: VirtualFile? = event.getData(PlatformDataKeys.VIRTUAL_FILE)
         val document: Document = event.getData(PlatformDataKeys.EDITOR)!!.document
         try {
+            //Rule C-G1
             val year = LocalDateTime.now().year.toString()
             val type = file!!.extension
             val filename = file.name
             var header = ""
-            if (type == "c") {
+            if (type == "c" || type == "cpp" || type == "cc" || type == "h") {
                 header = "/*\n** EPITECH PROJECT, " + year + "\n** " + project!!.name + "\n** File description:\n** " + filename + "\n*/\n"
             }
             if (filename == "Makefile") {

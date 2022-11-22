@@ -30,7 +30,7 @@
     <actions>
         <group id="Epiheader.Hello" text="Epiheader" description="Apply epitech header for c and Makefiles">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action class="com.epiheader.epiheader.Hello" id="Epiheader.Actions.Hello" text="Apply Header"/>
+            <action class="com.epiheader.epiheader.Header" id="Epiheader.Actions.Hello" text="Apply Header"/>
         </group>
     </actions>
 </idea-plugin>
