@@ -24,6 +24,9 @@ class Header: AnAction() {
             if (type == "c" || type == "cpp" || type == "cc" || type == "h") {
                 header = "/*\n** EPITECH PROJECT, " + year + "\n** " + project!!.name + "\n** File description:\n** " + filename + "\n*/\n"
             }
+            if (type == "hs") {
+                header = "{-\n-- EPITECH PROJECT, " + year + "\n-- " + project!!.name + "\n-- File description:\n-- " + filename + "\n-}\n"
+            }
             if (filename == "Makefile") {
                 header = "##\n## EPITECH PROJECT, " + year + "\n## " + project!!.name + "\n## File description:\n## " + filename + "\n##\n"
             }
