@@ -16,7 +16,6 @@ class Header: AnAction() {
         val file: VirtualFile? = event.getData(PlatformDataKeys.VIRTUAL_FILE)
         val document: Document = event.getData(PlatformDataKeys.EDITOR)!!.document
         try {
-            //Rule C-G1
             val year = LocalDateTime.now().year.toString()
             val type = file!!.extension
             val filename = file.name
@@ -29,6 +28,9 @@ class Header: AnAction() {
             }
             if (filename == "Makefile") {
                 header = "##\n## EPITECH PROJECT, " + year + "\n## " + project!!.name + "\n## File description:\n## " + filename + "\n##\n"
+            }
+            if (type == "h") {
+                header += "#ifndef $filename\n\t#define $filename\n#endif /*$filename*/"
             }
             val text = document.text
             header += text
