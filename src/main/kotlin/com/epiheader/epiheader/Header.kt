@@ -18,9 +18,11 @@ class Header: AnAction() {
         try {
             val year = LocalDateTime.now().year.toString()
             val type = file!!.extension
-            val filename = file.name
+            val filename = file.name.substring(0, file.name.lastIndexOf('.'))
+            val defineFilename = file.name.uppercase().replace('.', '_') + "_"
+            val className = filename.replaceFirstChar { it.uppercase() }
             var header = ""
-            if (type == "c" || type == "cpp" || type == "cc" || type == "h") {
+            if (type == "c" || type == "cpp" || type == "cc" || type == "h" || type == "hpp" || type == "hh") {
                 header = "/*\n** EPITECH PROJECT, " + year + "\n** " + project!!.name + "\n** File description:\n** " + filename + "\n*/\n"
             }
             if (type == "hs") {
@@ -29,8 +31,13 @@ class Header: AnAction() {
             if (filename == "Makefile") {
                 header = "##\n## EPITECH PROJECT, " + year + "\n## " + project!!.name + "\n## File description:\n## " + filename + "\n##\n"
             }
-            if (type == "h") {
-                header += "#ifndef $filename\n\t#define $filename\n#endif /*$filename*/"
+            if (type == "h" || type == "hh") {
+                header += "#ifndef $defineFilename\n\t#define $defineFilename\n#endif /*$defineFilename*/"
+            }
+            if (type == "hpp") {
+                header += "#ifndef $defineFilename\n\t#define $defineFilename\n"
+                header += "\nclass $className {\n\tpublic:\n\t\t$className();\n\t\t~$className();\n\n\tprotected:\n\tprivate:\n};\n\n"
+                header += "#endif /*$defineFilename*/"
             }
             val text = document.text
             header += text
