@@ -1,11 +1,11 @@
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
-    id("org.jetbrains.intellij") version "1.8.0"
+    id("org.jetbrains.intellij") version "1.12.0"
 }
 
 group = "com.epiheader"
-version = "1.3"
+version = "1.4"
 
 repositories {
     mavenCentral()
