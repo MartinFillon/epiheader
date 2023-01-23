@@ -18,7 +18,9 @@ class Header: AnAction() {
         try {
             val year = LocalDateTime.now().year.toString()
             val type = file!!.extension
-            val filename = file.name.substring(0, file.name.lastIndexOf('.'))
+            var filename = file.name
+            if (file.name.contentEquals("."))
+                filename = file.name.substring(0, file.name.lastIndexOf('.'))
             val defineFilename = file.name.uppercase().replace('.', '_') + "_"
             val className = filename.replaceFirstChar { it.uppercase() }
             var header = ""
@@ -46,7 +48,8 @@ class Header: AnAction() {
                 document.setText(header)
             }
             WriteCommandAction.runWriteCommandAction(project, r)
-        } catch (_: Exception) {
+        } catch (error: Exception) {
+            System.err.println(error)
         }
     }
 }
