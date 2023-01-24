@@ -24,8 +24,24 @@ class Header: AnAction() {
             val defineFilename = file.name.uppercase().replace('.', '_') + "_"
             val className = filename.replaceFirstChar { it.uppercase() }
             var header = ""
-            if (type == "c" || type == "cpp" || type == "cc" || type == "h" || type == "hpp" || type == "hh") {
+            if (type == "c" || type == "cpp" || type == "cc" || type == "h" || type == "hpp" || type == "hh" || type == "js"
+                    || type == "kt" || type == "java" || type == "groovy" || type == "ts" || type == "css") {
                 header = "/*\n** EPITECH PROJECT, " + year + "\n** " + project!!.name + "\n** File description:\n** " + filename + "\n*/\n"
+            }
+            if (type == "f" || type == "f90" || type == "for") {
+                header = "c EPITECH PROJECT, " + year + "\nc " + project!!.name + "\nc File description:\nc " + filename + "\n"
+            }
+            if (type == "md") {
+                header = "[comment]: # (EPITECH PROJECT, $year)\n[comment]: # (${project!!.name})\n[comment]: # (File description: $filename)\n"
+            }
+            if (type == "lsp") {
+                header = ";EPITECH PROJECT, $year\n;${project!!.name}\n;File description:\n;$filename\n"
+            }
+            if (type == "py") {
+                header = "#\n# EPITECH PROJECT, " + year + "\n# " + project!!.name + "\n# File description:\n# " + filename + "\n#\n"
+            }
+            if (type == "html" || type == "css") {
+                header = "<!--\nEPITECH PROJECT, " + year + "\n" + project!!.name + "\nFile description:\n" + filename + "\n-->\n"
             }
             if (type == "hs") {
                 header = "{-\n-- EPITECH PROJECT, " + year + "\n-- " + project!!.name + "\n-- File description:\n-- " + filename + "\n-}\n"
