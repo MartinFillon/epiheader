@@ -10,7 +10,7 @@ import com.intellij.openapi.vfs.VirtualFile
 import java.time.LocalDateTime
 
 
-class Header: AnAction() {
+class Header : AnAction() {
     override fun actionPerformed(event: AnActionEvent) {
         val project: Project? = event.project
         val file: VirtualFile? = event.getData(PlatformDataKeys.VIRTUAL_FILE)
